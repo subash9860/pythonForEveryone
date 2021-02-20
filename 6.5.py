@@ -2,8 +2,9 @@
 # to extract the number at the end of the line below. Convert the 
 # extracted value to a floating point number and print it out.
 
-text = "X-DSPAM-Confidence:0.8475"
+text = "X-DSPAM-Confidence:   0.8475"
 s = text.find(":")
 p = text[s+1:]
-f = float(p)
-print(p)
+p2 = p.rstrip()
+f = float(p2)
+print(f)
