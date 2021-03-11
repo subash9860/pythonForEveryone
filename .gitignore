@@ -2,3 +2,5 @@
 *hidden.py
 /.vscode
 /__pycashe__
+*.vscode
+*__pycashe__
